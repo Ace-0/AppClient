@@ -1,6 +1,9 @@
 language: node_js
 
 install:
+  - npm -g install npm@next
+  - npm install -g n
+  - n stable
   - npm install
   - npm run build
   - ls
