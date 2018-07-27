@@ -1,4 +1,7 @@
 # AppClient
+
+[![Build Status](https://travis-ci.org/Ace-0/AppClient.svg?branch=master)](https://travis-ci.org/Ace-0/AppClient)
+
 the front-end dev of theYelda.
 
 What we use:
