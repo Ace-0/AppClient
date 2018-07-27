@@ -1,9 +1,10 @@
 language: node_js
+node_js:
+  - "9"
 
 install:
-  - npm -g install npm@next
-  - npm install -g n
-  - n stable
   - npm install
   - npm run build
-  - ls
+
+script:
+  - ls dist
